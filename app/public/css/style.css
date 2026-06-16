@@ -286,14 +286,14 @@
 
 /* ===================================== NOVAS ADIÇÕES (ESTILO DA IMAGEM) ===================================== */
 
-/* Aplicando a nova fonte Alexandria na busca */
+
 .busca input, 
 .busca button {
     font-family: 'Alexandria', sans-serif;
     font-weight: 600;
 }
 
-/* Transformando o container da busca em pílula com sombra */
+
 .busca {
     display: flex;
     align-items: center;
@@ -301,12 +301,12 @@
     border-radius: 50px;       
     padding: 6px 6px 6px 20px; 
     width: 100%;
-    max-width: 500px;          /* Mantendo o tamanho padrão do seu projeto */
+    max-width: 500px;        
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
     margin-bottom: 20px;
 }
 
-/* Alinhamento do novo wrapper (Ícone + Input) */
+
 .input-wrapper {
     display: flex;
     align-items: center;
@@ -314,7 +314,7 @@
     gap: 12px; 
 }
 
-/* Estilização do ícone da lupa */
+
 .lupa-icon {
     font-size: 1.3rem;
     color: #1a1a1a; 
@@ -322,7 +322,7 @@
     flex-shrink: 0;            /* Impede o ícone de amassar em telas menores */
 }
 
-/* Resetando e ajustando o input original para se adaptar ao formato pílula */
+
 .busca input {
     flex: 1;                   /* Faz o input ocupar todo o espaço do meio */
     background: none;
@@ -335,7 +335,7 @@
     padding: 10px 0;
 }
 
-/* Cor do texto de ajuda (Placeholder) */
+
 .busca input::placeholder {
     color: #9e9e9e; 
 }
@@ -436,7 +436,7 @@
 }
 
 .conteudo-inferior{
-    display:grid;
+
     grid-template-columns:1fr 1fr;
     gap:40px;
 }
